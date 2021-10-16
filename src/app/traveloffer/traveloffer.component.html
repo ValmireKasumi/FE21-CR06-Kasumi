@@ -1,0 +1,22 @@
+
+<div class="row row-cols-1 row-cols-md-3 g-4 py-2 ">
+    <div class="col" *ngFor="let offer of offerlist">
+      <div class="card h-100 b-g" >
+        <img src="./assets/{{offer.img}}" class="card-img-top" alt="#">
+        <div class="card-body">
+          <h5 class="card-title">{{offer.destination}}</h5>
+          <p class="card-text">{{offer.description}}</p>
+        </div>
+        <div>
+        <div class="card-body pt-0">
+          <p class="card-text"><b>Duration:</b> {{offer.duration}}</p>
+          <p class="card-text"><b>Date:</b> {{offer.start_date}}</p>
+          <p class="card-text price"><b>Price:</b> {{offer.price|currency:"EUR":"symbol"}}</p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="button" (click)="addToCart(offer) ">Book</button>
+          </div>
+          </div>  
+          </div>
+      </div>
+    </div>  
+</div>

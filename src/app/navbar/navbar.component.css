@@ -1,0 +1,24 @@
+
+
+
+.navbar a, .navbar a:focus {
+    text-decoration: none;
+    color: white;
+  }
+
+.navbar a:hover{
+    color:darkgray;
+}
+
+
+button, button:hover {
+    background-color: transparent;
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+}
+
+button:hover{
+    background-color:lightblue;
+
+}
+

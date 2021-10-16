@@ -1,0 +1,21 @@
+div{
+    border-style: solid;
+    border-width: 0px;
+}
+
+img{
+    padding-right: 0px;
+    margin-right: 0;
+}
+
+button {
+    color:darkgoldenrod
+}
+
+h6 {
+    color:darkgrey;
+}
+
+h3{
+    color:darkgoldenrod;
+}

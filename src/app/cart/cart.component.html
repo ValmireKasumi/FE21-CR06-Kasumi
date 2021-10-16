@@ -1,0 +1,27 @@
+<div class="container py-2">
+    <h3>Cart</h3>
+    
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Destination</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor ="let item of items; index as counter">
+            <th scope="row">{{counter+1}}</th>
+            <td>{{item.destination}}</td>
+            <td>{{item.price|currency:"EUR":"symbol"}}</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <th>
+                  Total Costs: {{sum|currency:"EUR":"symbol"}}
+              </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>

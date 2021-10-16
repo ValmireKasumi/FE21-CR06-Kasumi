@@ -1,0 +1,4 @@
+.bg-image {
+    background-image: url(/assets/hero-image.jpg);
+    background-size: cover;
+}

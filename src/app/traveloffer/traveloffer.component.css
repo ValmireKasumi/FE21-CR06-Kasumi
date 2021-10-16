@@ -1,0 +1,11 @@
+.price{
+    color:darkgoldenrod;
+    font-size: large;
+}
+
+.b-g{
+    border-style: solid;
+    border-color:darkgray;
+    border-width: 0.1em;
+}
+

@@ -1,0 +1,21 @@
+button {
+    background-color: transparent;
+    border-color: white;
+}
+
+button:hover,button:focus{
+    background-color:lightblue;
+    border-color: white;
+}
+
+.hero 
+{
+
+color:white;
+
+}
+
+div{
+    border-style: solid;
+    border-width: 0px;
+}
